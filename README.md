@@ -1,64 +1,72 @@
-## Comprehensive System Overview
+# Kidanga Uni Campus Management System
 
-Kidanga Uni is designed to streamline interaction between students, lecturers, and administrators, covering a range of academic and administrative activities. It facilitates course management, assignment submissions, attendance tracking, and scheduling of assessments (CATs), all while ensuring accuracy and security through modern technologies.
+## Comprehensive System Overview with Dashboard Modules
 
-## Core Features
+### System Overview
+The Kidanga Uni Campus Management System is designed to enhance interactions and streamline management tasks for students, lecturers, and administrators. It encompasses features for course management, assignments, attendance, and assessments, emphasizing secure operations and role-based access. The dashboard offers modules tailored to different user roles to ensure clarity and efficiency.
 
-### User Roles and Authentication
+### Core Features
 
-- **Students**: Register, log in, and access personalized dashboards.
-- **Lecturers**: Manage courses, assignments, and attendance.
-- **Admins**: Oversee system operations, manage user roles, and generate reports.
+**User Roles and Authentication:**
+- **Students:** Register, log in, and access personalized dashboards.
+- **Lecturers:** Manage courses, assignments, and attendance.
+- **Admins:** Oversee system operations, manage user roles, and handle onboarding and offboarding.
 
-### Course and Unit Management
+**Course and Unit Management:**
+- **Course Creation:** Define and manage courses and their associated units.
+- **Unit Management:** Assign lecturers to specific units within courses.
 
-- **Course Creation**: Define and manage courses with associated units.
-- **Unit Management**: Assign lecturers to specific units within courses.
+**Assignment Management:**
+- **For Students:** Submit assignments, track progress, view grades, and receive feedback.
+- **For Lecturers:** Create, manage, and review assignments, provide grades and feedback.
+- **Viewing Assignments:** Lecturers receive notifications of new submissions and manage assignments through their dashboard.
 
-### Assignment Management
+**Attendance Management:**
+- **Lecture Scheduling:** Define lecture dates, times, and locations.
+- **Attendance Recording:** Record attendance using geofencing and QR code/NFC technology.
+- **Attendance Monitoring:** Track attendance percentage and ensure students meet the 70% requirement for exam eligibility.
 
-- **For Students**: Submit assignments, track progress, view grades, and receive feedback.
-- **For Lecturers**: Create and manage assignments, review submissions, and provide grades and feedback.
-- **Viewing Assignments**: Lecturers receive notifications of new submissions and can manage assignments through their dashboard.
+**CAT Management:**
+- **Setting CAT Dates:** Lecturers set and reschedule CAT dates, visible on the calendar for all users.
+- **Student Confirmation:** Students confirm CAT attendance in advance.
+- **Make-Up Requests:** Students request make-ups for missed CATs, which lecturers review and approve or deny.
 
-### Attendance Management
+**Assignment Deadline Extensions:**
+- **Request for Extensions:** Students request deadline extensions.
+- **Approval Process:** Lecturers review and decide on extension requests.
 
-- **Lecture Scheduling**: Define lecture dates, times, and locations.
-- **Attendance Recording**: Record attendance using geofencing and QR code/NFC technology, validating check-ins against lecture times and locations.
-- **Attendance Monitoring**: Track attendance percentages to ensure students meet the 70% requirement for exam eligibility.
+**Communication System:**
+- **Messaging:** Students and lecturers can send and receive messages.
+- **Notifications:** Receive alerts for new messages, assignment updates, and important announcements.
+- **Discussion Threads:** Manage discussions related to courses or assignments.
 
-### CAT Management
+**Reporting and Analytics:**
+- **Student Reports:** Access attendance records, assignment progress, and grades.
+- **Lecturer Reports:** Generate reports on student attendance, assignment submissions, and grading.
+- **Admin Reports:** Oversee system performance, user activity, and compliance.
 
-- **Setting CAT Dates**: Lecturers set and reschedule CAT dates, visible on the calendar for all users.
-- **Student Confirmation**: Students confirm their CAT attendance in advance.
-- **Make-Up Requests**: Students request make-ups for missed CATs, which lecturers review and approve or deny.
+**Security and Integrity Measures:**
+- **Authentication:** Secure login and registration processes.
+- **Data Validation:** Ensure accuracy and prevent tampering.
+- **Geofencing Accuracy:** Verify locations with geofencing technology.
+- **Audit Trails:** Maintain logs for accountability.
 
-### Assignment Deadline Extensions
+### Dashboard Modules
 
-- **Request for Extensions**: Students request deadline extensions.
-- **Approval Process**: Lecturers review and decide on extension requests.
+**My Work:**
+- **Students:** View and manage assignments, track progress, and check CAT schedules.
+- **Lecturers:** Manage assignments, view submissions, and track grading tasks.
 
-### Communication System
+**Self Service:**
+- **Students:** Submit make-up requests, request deadline extensions, and manage personal information.
+- **Lecturers:** Handle student requests and manage personal settings.
 
-- **Messaging**: Students and lecturers can send messages to each other.
-- **Notifications**: Receive alerts for new messages, assignment updates, and important announcements.
-- **Discussion Threads**: Create and manage discussion threads for specific courses or assignments.
+**Onboarding and Offboarding:**
+- **Admins:** Manage the creation of new user accounts, handle onboarding processes for students and lecturers, and manage offboarding when users leave the institution. This module is restricted from lecturer view.
 
-### Reporting and Analytics
+**Performance and Reports:**
+- **Students:** Access performance metrics, track progress, and view historical data.
+- **Lecturers:** Generate and review performance reports for their students.
+- **Admins:** Oversee system-wide performance reports and analytics.
 
-- **Student Reports**: Access attendance records, assignment progress, and grades.
-- **Lecturer Reports**: Generate reports on student attendance, assignment submissions, and grading.
-- **Admin Reports**: Oversee system performance, user activity, and compliance.
 
-### Security and Integrity Measures
-
-- **Authentication**: Secure login and registration processes.
-- **Data Validation**: Ensure accuracy and prevent tampering.
-- **Geofencing Accuracy**: Verify locations with precise geofencing technology.
-- **Audit Trails**: Maintain logs for accountability.
-
-### User Interface
-
-- **Student Dashboard**: Access course materials, assignments, attendance records, and CAT schedules.
-- **Lecturer Dashboard**: Manage assignments, track attendance, set CAT dates, and view student submissions.
-- **Admin Dashboard**: Manage user roles, oversee system operations, and generate reports.
